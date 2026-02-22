@@ -5,7 +5,7 @@ Este workspace contem dois projetos separados:
 - `backend/`: API ASP.NET Core (.NET 8) + PostgreSQL + SignalR
 - `frontend/`: cliente React/Vite para testar autenticacao, CRUD e notificacoes em tempo real
 
-Este README foi escrito para um avaliador executar o projeto com o menor atrito possivel.
+Para testar com o frontend, clone-o pela url: `https://github.com/rodineiriboli/luza-group-simple-blog-frontend`
 
 ## 1) Pre-requisitos
 
