@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|d:\\projetos\\simple blog (luza group)\\backend\\src\\blog.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|solutionrelative:src\\blog.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|d:\\projetos\\simple blog (luza group)\\backend\\src\\blog.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|solutionrelative:src\\blog.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|d:\\projetos\\simple blog (luza group)\\backend\\src\\blog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|solutionrelative:src\\blog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|d:\\projetos\\simple blog (luza group)\\backend\\src\\blog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|solutionrelative:src\\blog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|d:\\projetos\\simple blog (luza group)\\backend\\src\\blog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D7F5D8F-758A-4C70-9641-AE77D6529C12}|src\\Blog.Api\\Blog.Api.csproj|solutionrelative:src\\blog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "src\\Blog.Api\\Controllers\\PostsController.cs",
+              "ToolTip": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "src\\Blog.Api\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:37:56.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\Blog.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\Blog.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:37:50.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Blog.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Blog.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-22T11:19:10.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Blog.Api\\appsettings.json",
+              "ToolTip": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Blog.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-22T11:10:03.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Blog.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\Projetos\\Simple Blog (LUZA Group)\\backend\\src\\Blog.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Blog.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-22T11:09:49.615Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

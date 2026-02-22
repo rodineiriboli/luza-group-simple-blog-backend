@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: blog-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-blogdb}
+      POSTGRES_USER: ${POSTGRES_USER:-bloguser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-blogpass}
+    ports:
+      - "5432:5432"
+    volumes:
+      - blog-postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-bloguser} -d ${POSTGRES_DB:-blogdb}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    container_name: blog-api
+    build:
+      context: .
+      dockerfile: docker/Blog.Api/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=${POSTGRES_DB:-blogdb};Username=${POSTGRES_USER:-bloguser};Password=${POSTGRES_PASSWORD:-blogpass}
+      Jwt__Issuer: ${JWT_ISSUER:-SimpleBlog}
+      Jwt__Audience: ${JWT_AUDIENCE:-SimpleBlog.Client}
+      Jwt__Key: ${JWT_KEY:-ChangeThisJwtSecretKeyAtLeast32Chars}
+      Jwt__ExpirationMinutes: ${JWT_EXPIRATION_MINUTES:-60}
+      Cors__AllowedOrigins__0: http://localhost:5173
+      Cors__AllowedOrigins__1: http://127.0.0.1:5173
+    ports:
+      - "8080:8080"
+
+volumes:
+  blog-postgres-data:

@@ -1,0 +1,55 @@
+@baseUrl = http://localhost:8080
+@token = REPLACE_WITH_JWT
+@postId = REPLACE_WITH_POST_ID
+@etag = "REPLACE_WITH_ETAG"
+
+### Register
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "user1@example.com",
+  "displayName": "User One",
+  "password": "Strong@123"
+}
+
+### Login
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "user1@example.com",
+  "password": "Strong@123"
+}
+
+### Get posts (public)
+GET {{baseUrl}}/api/posts?page=1&pageSize=10
+
+### Get single post (public)
+GET {{baseUrl}}/api/posts/{{postId}}
+
+### Create post (auth)
+POST {{baseUrl}}/api/posts
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "title": "First post",
+  "content": "Hello from API tests"
+}
+
+### Update post (auth + concurrency)
+PUT {{baseUrl}}/api/posts/{{postId}}
+Authorization: Bearer {{token}}
+If-Match: {{etag}}
+Content-Type: application/json
+
+{
+  "title": "First post updated",
+  "content": "Updated content",
+  "rowVersion": "REPLACE_WITH_BASE64_ROW_VERSION"
+}
+
+### Delete post (auth)
+DELETE {{baseUrl}}/api/posts/{{postId}}
+Authorization: Bearer {{token}}
